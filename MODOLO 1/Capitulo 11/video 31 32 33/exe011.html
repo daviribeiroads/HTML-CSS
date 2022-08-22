@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>Tentar abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 600px)" srcset="imagem/foto-p.png">
+        <source media="(max-width: 1100px)" srcset="imagem/foto-m.png" type="image/png">
+        <img src="imagem/foto-g.png" alt="imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo</h1>
+    <p>Vamos aprender a repruduzir audio em HTML5</p>
+    <audio src="midia/Natural Light - Chris Haugen.mp3" controls></audio> 
+    <!-- MP3.WAV.OGG -->
+    <p><strong>Maneira de adicionar aúdio no site</strong></p>
+    <audio>
+        <source src="midia/Natural Light - Chris Haugen.mp3" type="audio/mp3">
+    </audio>
+    <p>Infelizmente o seu navegador não consegue reproduzir áudio. <a href="midia/Natural Light - Chris Haugen.mp3">Clique aqui para baixar seu áudio</a></p>
+
+</body>
+</html>

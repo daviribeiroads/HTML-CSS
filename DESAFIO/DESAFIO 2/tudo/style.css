@@ -1,0 +1,48 @@
+@charset "UFT-8"
+
+* { height: auto;}
+body{
+    background-color: rgb(144, 225, 144);
+}
+header{
+    background-image: linear-gradient(to top, rgb(5, 72, 5), rgb(124, 202, 124));
+    padding-top: 10px;
+    
+}
+.cabecalho{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    text-align: center;
+    
+}
+
+a{
+    
+    color: white;
+    text-decoration: double;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+main{
+    background-color: white;
+    padding: 20px;
+    margin: 0px 20px;
+}
+div.texto1{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+div.texto1 > h1{
+    color: rgb(10, 116, 10);
+}
+div.texto2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
