@@ -30,6 +30,10 @@ img{
     margin-top: 10px;
     
 }
-
-
+li{
+    display: none;
+}
+h1 ul li :hover{
+    display: block;
+ }
 
